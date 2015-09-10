@@ -1,0 +1,300 @@
+/*
+Author: Quique Fdez Guerra
+Twitter: @CKGrafico
+Microsoft Guidelines: https://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx
+GitHub: https://github.com/CKGrafico/Segoe-mdl2-assets-css
+*/
+
+[class^="mdl2-"], [class*="mdl2-"] {
+  font-family: 'Segoe MDL2 Assets';
+}
+
+[class^="mdl2-"]::before, [class*="mdl2-"]::before {
+  font-size: 1.8pc;
+}
+
+.mdl2-heart-legacy::before { content: '\e006'; }
+.mdl2-heart-fill-legacy::before { content: ''; }
+.mdl2-heart-broken-legacy::before { content: ''; }
+.mdl2-heart-fill-zero-width-legacy::before { content: ''; }
+.mdl2-heart-broken-zero-width-legacy::before { content: ''; }
+.mdl2-rating-star-legacy::before { content: ''; }
+.mdl2-rating-star-fill-legacy::before { content: ''; }
+.mdl2-rating-star-fill-zero-width-legacy::before { content: ''; }
+.mdl2-rating-star-fill-reduced-padding-HTML-legacy::before { content: ''; }
+.mdl2-rating-star-fill-small-legacy::before { content: ''; }
+.mdl2-half-star-left { content: ''; }
+.mdl2-half-star-right { content: ''; }
+.mdl2-checkbox-fill-legacy::before { content: ''; }
+.mdl2-checkbox-legacy::before { content: ''; }
+.mdl2-checkbox-indeterminate-legacy::before { content: ''; }
+.mdl2-checkbox-composite-reversed-legacy::before { content: ''; }
+.mdl2-check-mark-zero-width-legacy::before { content: ''; }
+.mdl2-checkbox-fill-zero-width-legacy::before { content: ''; }
+.mdl2-checkbox-composite-legacy::before { content: ''; }
+.mdl2-checkbox::before { content: ''; }
+.mdl2-checkbox-composite::before { content: ''; }
+.mdl2-checkbox-fill::before { content: ''; }
+.mdl2-checkbox-indeterminate::before { content: ''; }
+.mdl2-checkbox-composite-reversed::before { content: ''; }
+.mdl2-check-mark::before { content: ''; }
+.mdl2-comment-legacy::before { content: ''; }
+.mdl2-favorite-legacy::before { content: ''; }
+.mdl2-unfavorite-legacy::before { content: ''; }
+.mdl2-favorite-star::before { content: ''; }
+.mdl2-favorite-star-fill::before { content: ''; }
+.mdl2-unfavorite::before { content: ''; }
+.mdl2-like-legacy::before { content: ''; }
+.mdl2-dislike-legacy::before { content: ''; }
+.mdl2-like-dislike-legacy::before { content: ''; }
+.mdl2-video-legacy::before { content: ''; }
+.mdl2-video::before { content: ''; }
+.mdl2-mail-message-legacy::before { content: ''; }
+.mdl2-reply-legacy::before { content: ''; }
+.mdl2-favorite-2-legacy::before { content: ''; }
+.mdl2-unfavorite-2-legacy::before { content: ''; }
+.mdl2-mobile-contact-legacy::before { content: ''; }
+.mdl2-blocked-legacy
+.mdl2-typing-indicator-legacy
+.mdl2-presence-chicklet-video-legacy
+.mdl2-presence-chicklet-legacy
+.mdl2-scroll-chevron-left-legacy
+.mdl2-scroll-chevron-right-legacy
+.mdl2-scroll-chevron-up-legacy
+.mdl2-scroll-chevron-down-legacy
+.mdl2-scroll-chevron-left-bold-legacy
+.mdl2-scroll-chevron-right-bold-legacy
+.mdl2-scroll-chevron-up-bold-legacy
+.mdl2-scroll-chevron-down-bold-legacy
+.mdl2-back-bttn-arrow-2-0-legacy
+.mdl2-back-bttn-arrow-4-2-legacy
+.mdl2-back-bttn-mirrored-arrow-2-0-legacy
+.mdl2-back-bttn-mirrored-arrow-4-2-legacy
+.mdl2-chrome-back
+.mdl2-chrome-back-mirrored
+.mdl2-arrow-HTML-legacy
+.mdl2-arrow-HTML-mirrored-legacy
+.mdl2-accept
+.mdl2-accounts
+.mdl2-add
+.mdl2-add-friend
+.mdl2-admin
+.mdl2-align-center
+.mdl2-align-left
+.mdl2-alignright
+.mdl2-all-apps
+.mdl2-attach
+.mdl2-attach-camera
+.mdl2-audio
+.mdl2-back
+.mdl2-back-to-window
+.mdl2-block-contact
+.mdl2-bold
+.mdl2-bookmarks
+.mdl2-browse-photos
+.mdl2-bulleted-list
+.mdl2-calculator
+.mdl2-calendar
+.mdl2-calendar-day
+.mdl2-calendar-reply
+.mdl2-calendar-week
+.mdl2-camera
+.mdl2-cancel
+.mdl2-caption
+.mdl2-c-c
+.mdl2-cellphone
+.mdl2-characters
+.mdl2-clear
+.mdl2-clear-selection
+.mdl2-close-pane
+.mdl2-cloud
+.mdl2-comment
+.mdl2-contact
+.mdl2-contact-2
+.mdl2-contact-info
+.mdl2-contact-presence
+.mdl2-copy
+.mdl2-crop
+.mdl2-cut
+.mdl2-delete
+.mdl2-directions
+.mdl2-disable-updates
+.mdl2-disconnect-drive
+.mdl2-dislike
+.mdl2-dock-bottom
+.mdl2-dock-left
+.mdl2-dock-right
+.mdl2-document
+.mdl2-download
+.mdl2-edit
+.mdl2-emoji
+.mdl2-emoji-2
+.mdl2-favorite-list
+.mdl2-favorite-star
+.mdl2-favorite-star-fill
+.mdl2-filter
+.mdl2-find-legacy
+.mdl2-flag
+.mdl2-folder
+.mdl2-font
+.mdl2-fontcolor
+.mdl2-font-decrease
+.mdl2-font-increase
+.mdl2-font-size
+.mdl2-forward
+.mdl2-four-bars
+.mdl2-full-screen
+.mdl2-globe
+.mdl2-go
+.mdl2-go-to-start
+.mdl2-go-to-today
+.mdl2-hangup
+.mdl2-help
+.mdl2-hide-b-c-c
+.mdl2-highlight
+.mdl2-home
+.mdl2-import
+.mdl2-import-all
+.mdl2-important
+.mdl2-italic
+.mdl2-keyboard-classic
+.mdl2-leave-chat
+.mdl2-library
+.mdl2-like
+.mdl2-like-dislike
+.mdl2-link
+.mdl2-list
+.mdl2-location
+.mdl2-mail
+.mdl2-mail-fill
+.mdl2-mail-forward
+.mdl2-mail-reply
+.mdl2-mail-reply-all
+.mdl2-manage
+.mdl2-map-drive
+.mdl2-mappin
+.mdl2-memo
+.mdl2-message
+.mdl2-microphone
+.mdl2-more
+.mdl2-move-to-folder
+.mdl2-music-info
+.mdl2-mute
+.mdl2-new-folder
+.mdl2-new-window
+.mdl2-next
+.mdl2-one-bar
+.mdl2-open-file
+.mdl2-open-local
+.mdl2-open-pane
+.mdl2-open-with
+.mdl2-orientation
+.mdl2-other-user
+.mdl2-outline-star-legacy
+.mdl2-page
+.mdl2-paste
+.mdl2-pause
+.mdl2-people
+.mdl2-permissions
+.mdl2-phone
+.mdl2-phone-book
+.mdl2-pin
+.mdl2-play
+.mdl2-post-update
+.mdl2-preview
+.mdl2-preview-link
+.mdl2-previous
+.mdl2-priority
+.mdl2-protected-document
+.mdl2-read
+.mdl2-redo
+.mdl2-refresh
+.mdl2-remote
+.mdl2-remove
+.mdl2-rename
+.mdl2-repair
+.mdl2-repeat-all
+.mdl2-repeat-one
+.mdl2-report-hacked
+.mdl2-reshare
+.mdl2-rotate
+.mdl2-rotate-camera
+.mdl2-save
+.mdl2-save-local
+.mdl2-scan
+.mdl2-select-all
+.mdl2-send
+.mdl2-set-lock-screen
+.mdl2-set-tile
+.mdl2-settings
+.mdl2-share
+.mdl2-shop
+.mdl2-show-b-c-c
+.mdl2-show-results
+.mdl2-shuffle
+.mdl2-slideshow
+.mdl2-solid-star-legacy
+.mdl2-sort
+.mdl2-stop
+.mdl2-street
+.mdl2-switch
+.mdl2-switch-apps
+.mdl2-sync
+.mdl2-sync-folder
+.mdl2-tag
+.mdl2-three-bars
+.mdl2-touch-pointer
+.mdl2-trim
+.mdl2-two-bars
+.mdl2-two-page
+.mdl2-underline
+.mdl2-undo
+.mdl2-un-favorite
+.mdl2-un-pin
+.mdl2-un-sync-folder
+.mdl2-up
+.mdl2-upload
+.mdl2-video-chat
+.mdl2-view
+.mdl2-view-all
+.mdl2-volume
+.mdl2-webcam
+.mdl2-world
+.mdl2-zero-bars
+.mdl2-zoom
+.mdl2-zoom-in
+.mdl2-zoom-out
+.mdl2-battery-unknown
+.mdl2-battery-0
+.mdl2-battery-1
+.mdl2-battery-2
+.mdl2-battery-3
+.mdl2-battery-4
+.mdl2-battery-5
+.mdl2-battery-6
+.mdl2-battery-7
+.mdl2-battery-8
+.mdl2-battery-9
+.mdl2-battery-1-0
+.mdl2-battery-charging-0
+.mdl2-battery-charging-1
+.mdl2-battery-charging-2
+.mdl2-battery-charging-3
+.mdl2-battery-charging-4
+.mdl2-battery-charging-5
+.mdl2-battery-charging-6
+.mdl2-battery-charging-7
+.mdl2-battery-charging-8
+.mdl2-battery-charging-9
+.mdl2-battery-charging-1-0
+.mdl2-battery-saver-0
+.mdl2-battery-saver-1
+.mdl2-battery-saver-2
+.mdl2-battery-saver-3
+.mdl2-battery-saver-4
+.mdl2-battery-saver-5
+.mdl2-battery-saver-6
+.mdl2-battery-saver-7
+.mdl2-battery-saver-8
+.mdl2-battery-saver-9
+.mdl2-battery-saver-1-0
