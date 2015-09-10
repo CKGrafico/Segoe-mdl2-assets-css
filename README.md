@@ -9,6 +9,6 @@ Unnoficial Windows 10 Segoe MDL2 Asset to CSS
 
 
 # TO DO:
-[ ] Add all images to readme
-[ ] Add all css classes
-[ ] Add icons finder
+- [ ] Add all images to readme
+- [ ] Add all css classes
+- [ ] Add icons finder
