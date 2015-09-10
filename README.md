@@ -6,6 +6,10 @@ Unnoficial Windows 10 Segoe MDL2 Asset to CSS
 ![Checkbox2](http://i.imgur.com/c1S1Izj.png)
 ![Miscellaneous1](http://i.imgur.com/pevaxaE.png)
 ![Miscellaneous2](http://i.imgur.com/GpWWQrP.png)
+![Miscellaneous3](http://i.imgur.com/8pW9Nrf.png)
+![Scrollbar](http://i.imgur.com/M1GtEYi.png)
+![Back](http://i.imgur.com/Nke0PFg.png)
+![Back2](http://i.imgur.com/b7OuJP3.png)
 
 
 # TO DO:
