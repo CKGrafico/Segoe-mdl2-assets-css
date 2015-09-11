@@ -14,11 +14,9 @@
 			var $this = $(this);
 			var $tag = $this.find('.icons-tag');
 			var $pos = $this.position();
-			var $width = $this.width();
-			var $tagWidth = $tag.width();
 			var $height = $this.height();
 			$this.addClass('icons-item--touched')
-			$tag.css({top: $pos.top + $height, left: $pos.left + $with});
+			$tag.css({top: $pos.top + $height, left: $pos.left});
 		});
 	}
 })(jQuery);
