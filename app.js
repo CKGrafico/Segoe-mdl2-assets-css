@@ -4,8 +4,10 @@
 		var dirtyList = data.match(/(.+)}/g);
 		var cleanList = [];
 		for (var i = 0, l = dirtyList.length; i < l; i++) {
-			cleanList.push(dirtyList[i].split('::before')[0].slice(1));
+			var icon = dirtyList[i].split('::before')[0].slice(1);
+			cleanList.push(icon);
+			$('.icons').append('<li><div class="' + icon + '"></div><span>' + icon + '</span></li>');
 		}
-		console.log(cleanList)
+		
 	}
 })(jQuery);
